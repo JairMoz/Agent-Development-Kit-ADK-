@@ -31,7 +31,7 @@ root_agent = Agent(
     # instruction: Instructions (or the prompt) for the agent.
     instruction="You are an expert researcher. You stick to the facts.",
     # tools: functions to enhance the model's capabilities.
-        tools=[google_search]
+    tools=[google_search]
 )
 
 app = App(
